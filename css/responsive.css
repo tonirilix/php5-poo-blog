@@ -1,0 +1,264 @@
+/*
+
+	http://www.huseyinemanet.com/
+
+	Project:		SweetDashboard - http://www.huseyinemanet.com/
+	Author:			Huseyin Emanet
+	Tested On:		ff, ie8+, chrome, opera, safari
+	Version:		1.0
+	File ID:		responsive.css
+	
+	Designed and handcrafted by Huseyin Emanet
+
+	DOCUMENT INDEX
+
+	0.	DOCUMENT LAYOUT
+	1.	MIN-WIDTH: 768px - MAX-WIDTH: 959px
+	2.	MIN-WIDTH: 480px - MAX-WIDTH: 767px
+	3.	WIDTH: 300px - MAX-WIDTH: 768px
+
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	0.	DOCUMENT LAYOUT
+/*-----------------------------------------------------------------------------------*/
+
+object {
+	width: 100%;
+	max-width: 100%;
+}
+
+#container, #content, #footer {
+	transition: width .5s linear;
+	-moz-transition: width .5s linear;
+	-webkit-transition: width .5s linear;
+	-o-transition: width .5s linear;
+	-ms-transition: width .5s linear;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	1.	MIN-WIDTH: 768px - MAX-WIDTH: 959px
+/*-----------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	#container {
+		width: 768px;
+	}
+
+	#content {
+		width: 527px;
+	}
+
+	#footer {
+		width: 528px;
+	}
+
+	.pending-requests li {
+		padding: 0 20px 10px 0;
+	}
+
+	.pending-requests li span {
+		font-size: 13px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		margin: 0 5px 0 0;
+	}
+
+	.pending-requests li p {
+		line-height: 28px;
+	}
+
+	.form {
+		width: 320px;
+	}
+
+	select.form {
+		width: 332px;
+	}
+
+	span.customStyleSelectBox {
+		width: 306px;
+	}
+
+	select[multiple^="multiple"] {
+		width: 332px;
+	}
+	
+	#gallery li:nth-child(3n+3) {
+		margin: 0 9px 9px 0;
+	}
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	2.	MIN-WIDTH: 480px - MAX-WIDTH: 767px
+/*-----------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	#container {
+		width: 420px;
+	}
+
+	#footer {
+		width: 128px;
+	}
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3.	WIDTH: 300px - MAX-WIDTH: 768px
+/*-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+	#container {
+		width: 300px;
+	}
+
+	#header-inner {
+		padding: 35px 20px;
+	}
+
+	#logo {
+		padding: 5px 0 0;
+		float: none;
+		display: block;
+	}
+
+	#logo img {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#user-area {
+		display: none;
+	}
+
+	#navigation {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	
+	#navigation #nav-drop-down {
+		display: block;
+		width: 100%;
+		margin: 0 0 30px;
+	}
+	
+	#page-changer {
+		display: block;
+	}
+	
+	#navigation .section {
+		display: none;
+	}
+	
+	#navigation #nav-drop-down select {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	#navigation span.customStyleSelectBox {
+		width: 275px;
+		margin: 0 0 30px;
+	}
+	
+	.cleditorMain {
+		width: 226px !important;
+		height: 150px !important;
+	}
+	
+	.cleditorMain iframe, .cleditorToolbar {
+		display: none !important;
+	}
+	
+	.cleditorMain textarea {
+		display: block !important;
+		height: 150px !important;
+	}
+
+	.search input {
+		width: 268px;
+	}
+
+	#content {
+		float: none;
+		width: 100%;
+	}
+
+	.pending-requests li {
+		padding: 0 20px 20px 0;
+	}
+
+	.pending-requests li span {
+		font-size: 13px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		margin: 0 5px 0 0;
+	}
+
+	.pending-requests li p {
+		line-height: 28px;
+	}
+
+	.form {
+		width: 216px;
+	}
+
+	select.form {
+		width: 228px;
+	}
+
+	.tabs ul.nav {
+		font-size: 9px;
+	}
+
+	.pagination a {
+		padding: 0 7px;
+	}
+	
+	span.customStyleSelectBox {
+		width: 202px;
+	}
+	
+	select[multiple^="multiple"] {
+		width: 228px;
+	}
+	
+	.button {
+		display: block;
+	}
+
+	#gallery ul {
+		display: table;
+		margin: 0 auto;
+	}
+	
+	#gallery a.right {
+		float: none;
+	}
+
+	#footer {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	#footer p {
+		display: none;
+		float: none;
+		padding: 0;
+	}
+
+	#footer p#footer-logo {
+		display: block;
+	}
+
+}

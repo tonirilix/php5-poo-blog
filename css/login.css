@@ -1,0 +1,95 @@
+/*
+
+	http://www.huseyinemanet.com/
+
+	Project:		SweetDashboard - http://www.huseyinemanet.com/
+	Author:			Huseyin Emanet
+	Tested On:		ff, ie8+, chrome, opera, safari
+	Version:		1.0
+	File ID:		login.css
+	
+	Designed and handcrafted by Huseyin Emanet
+
+*/
+
+#login {
+	width: 290px;
+	margin: 50px auto;
+}
+
+#login-page {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1);	
+}
+
+#login span.head {
+	font-size: 12px;
+	padding: 3px 15px;
+}
+
+.register {
+	float: right;
+	color: #fff;
+}
+
+.register:hover {
+	color: #fff;	
+}
+
+#please-login {
+	background: #fff;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #dff1ff;
+}
+
+.login-content {
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+}
+
+.lost-password {
+	font-size: 11px;
+	text-align: right;
+	float: right;
+	padding: 8px 0;
+}
+
+.login-button {
+	float: left;
+	padding: 8px 0;
+}
+
+button:active, button:focus {
+	outline: 0;	
+}
+
+.login-input {
+	margin: 0 0 10px;
+}
+
+.login-input input {
+	background-repeat: no-repeat;
+	background-position: 9px 50%;
+	padding: 10px 10px 10px 29px; 
+	width: 218px;
+}
+
+.login-input-username input {
+	background-image: url(../media/icons/main/username.png);	
+}
+
+.login-input-password input {
+	background-image: url(../media/icons/main/password.png);
+}
+
+.login-input-email input {
+	background-image: url(../media/icons/main/login-input-email.png);	
+}
+
+#mini-footer {
+	text-align: right;	
+}
